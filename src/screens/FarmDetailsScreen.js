@@ -1,8 +1,12 @@
 import { StyleSheet, Text, View } from 'react-native'
 
 import React from 'react'
+import { useSelector } from 'react-redux'
 
 const FarmDetailsScreen = () => {
+
+  const farm = useSelector((state) => state.farms.selected) 
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Farm Category</Text>
@@ -11,6 +15,8 @@ const FarmDetailsScreen = () => {
 }
 
 export default FarmDetailsScreen
+
+
 
 const styles = StyleSheet.create({
   container: {
