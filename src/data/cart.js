@@ -1,21 +1,41 @@
-export const CART = [
-  {
-    id: "1",
-    category: "1",
-    name: "Amoxidal",
-    description: "Amoxicilina",
-    weight: "500 x 16 comprimidos",
-    price: 550,
-    quantity: 3,
-  },
-  {
-    
-      id: "9",
-      category: "4",
-      name: "Tobillera Neoprend",
-      description: "Talle M",
-      weight: "Ajustable elastico",
-      price: 1590,
-      quantity: 4,
+export const Cart = [
+    {
+        id: '1',
+        category: '1',
+        name: 'Americana',
+        description: 'Hamburguesa Americana',
+        weight: '180grs',
+        price: 1350,
+        quantity: 2,
     },
-];
+
+    {
+        id: '2',
+        category: '1',
+        name: 'Francesa',
+        description: 'Hamburguesa Francesa',
+        weight: '180grs',
+        price: 1350,
+        quantity: 2,
+    },
+
+    {
+        id: '3',
+        category: '1',
+        name: 'Mexicana',
+        description: 'Hamburguesa Mexicana',
+        weight: '180grs',
+        price: 1350,
+        quantity: 2,
+    },
+
+    {
+        id: '4',
+        category: '1',
+        name: 'Italiana',
+        description: 'Hamburguesa Italiana',
+        weight: '180grs',
+        price: 1350,
+        quantity: 2,
+    },
+]

@@ -1,8 +1,8 @@
-export const SELECTED_CATEGORY = "SELECTED_CATEGORY";
+export const Selected_Category = 'Selected_Category'
+
 
 export const selectedCategory = (id) => ({
-  type: SELECTED_CATEGORY,
-  categoryID: id,
-});
-
+    type: Selected_Category,
+    categoryID: id,
+})
 
